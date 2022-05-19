@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>LAB02</title>
+		<script src="ejercicio1.js"></script>
+		<script src="ejercicio2.js"></script>
+		<script src="ejercicio3.js"></script>
+		<script src="ejercicio4.js"></script>
+		<script src="ejercicio5.js"></script>
+	</head>
+	<body>
+		<h2>Ejercicio 1 : Día según número (Consola)</h2>
+
+		<h2>Ejercicio 2 : Invertir cadena</h2><br>
+		<form>
+			<label>Texto a invertir: </label>
+			<input type="text" id="cad">
+			<h3 id="nCad"></h3>
+			<button type="button" onclick="invertir()">Invertir</button>
+		</form><br>
+
+		<h2>Ejercicio 3 : ¿Cuántos días faltan para el día de Arequipa?</h2>
+		<h3 id="nDias"></h3>
+			<input type="button" onclick="calcDiasAqp()" value="Calcular"><br>
+
+		<h2>Ejercicio 4 : Devolver código de meet sin guiones</h2>
+		<form>
+			<label>URL de sesión meet (1): </label><input type="text" id="url1"><br>
+			<label>URL de sesión meet (2): </label><input type="text" id="url2">
+			<h3 id="sinG1"></h3>
+			<h3 id="sinG2"></h3>
+			<input type="button" onclick="quitarG()" value="Convertir">
+
+		<h2>Ejercicio 5 : Tabla dinámica</h2>
+		<form>
+			<label>Ingrese el número de elementos: </label>
+			<input type="text" id="n">
+			<input type="button" onclick="generarDimensiones()" value="Enviar">
+			<h3 id="nVal"></h3>
+			<input type="button" onclick="armaTab()" value="Armar tabla con valores">
+			<table id="tabla">
+				
+			</table>
+		</form>
+		</form>
+	</body>
+</html>
